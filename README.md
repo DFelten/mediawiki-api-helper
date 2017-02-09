@@ -1,6 +1,12 @@
 # mediawiki-api-helper
 Helper for the addwiki MediaWiki API with an example script and easy configuration.
 
+## Installation
+1. Install [mediawiki-api](https://github.com/addwiki/mediawiki-api) and all dependencies
+2. Copy or rename the configSample.ini to config.ini
+3. Fill in the ini with the data of your MediaWiki
+4. Look at the ScriptSample.php
+
 ## Example Usage
 Extract of the ScriptSample.php
 ```php
