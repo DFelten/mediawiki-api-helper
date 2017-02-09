@@ -1,6 +1,5 @@
 <?php
 require_once('src/Init.php');
-require_once('mw/MWCreatures.php');
 use \Helper\Page;
 use \Helper\Functions;
 

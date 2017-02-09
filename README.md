@@ -2,7 +2,14 @@
 Helper for the addwiki MediaWiki API with an example script and easy configuration.
 
 ## Example Usage
+Extract of the ScriptSample.php
 ```php
+require_once('src/Init.php');
+use \Helper\Page;
+use \Helper\Functions;
+
+//(...)
+
 //Create the page object
 $page = new Page("Article name", "Article content");
 
